@@ -125,6 +125,14 @@
 #
 #print(f'En " {frase} ", la letra {letraABuscar} aparece {count} vez/veces')
 
+#Ejercicio 20
+
+#while True :
+#    ecoUser = input('Habla humano: ')
+#    if ecoUser == 'salir':
+#        break
+#    print(ecoUser)
+
 #Ejercicio 21
 #materias = ['Matemáticas', 'Física', 'Química', 'Historia', 'Lengua']
 #for materia in materias:
@@ -162,8 +170,22 @@
 #    print(f'{precioDeConsulta}')
 
 #Ejercicio 24
-asignaturas = {
-    'Matemáticas': 6,
-    'Física': 4,
-    'Química': 5
-}
+#asignaturas = {
+#    'Matemáticas': 6,
+#    'Física': 4,
+#    'Química': 5
+#}
+#
+#for asignatura in asignaturas:
+#    print(asignatura, 'tiene', str(asignaturas[asignatura]), 'creditos.')
+
+#Ejercicio 25
+#from string import ascii_lowercase
+#
+#listaFull = list(ascii_lowercase)
+#listaSinVocales = []
+#for letra in listaFull:
+#    if letra!='a' and letra !='e' and letra !='i' and letra !='o' and letra !='u':
+#        listaSinVocales.append(letra)
+#print('lista completa', listaFull)
+#print('lista sin vocales', listaSinVocales)
